@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/zeyne/IdeaProjects/TestNGProject/src/test/java/Clarusway/test/C01_Annotations.java">
+        <classes>
+            <class name="Clarusway.test.C01_Annotations">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/zeyne/IdeaProjects/TestNGProject/src/test/java/Clarusway/test/C07_Description.java">
+        <classes>
+            <class name="Clarusway.test.C07_Description">
+                <methods>
+                    <include name="testCase1"/>
+                    <include name="testCase2"/>
+                    <include name="testCase3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
