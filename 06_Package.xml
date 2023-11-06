@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Package Test">
+        <packages>
+            <package name="Clarusway.test">
+                <exclude name="Clarusway.test.C06_Timeout"></exclude>
+                <exclude name="Clarusway.test.C10_SoftAssertion"></exclude>
+                <exclude name="Clarusway.test.C09_HardSoftAssertion"></exclude>
+            </package>
+            <package name="Clarusway.homeworks"></package>
+        </packages>
+
+    </test>
+</suite>
