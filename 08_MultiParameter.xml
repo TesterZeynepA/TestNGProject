@@ -3,16 +3,14 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
           name="multiParameterTest">
-        <parameter name="aranacak kelime" value="Java"></parameter>
-
+        <parameter name="aranacakKelime" value="Java"></parameter>
         <classes>
             <class name="Clarusway.test.C14_XMLFile_ParameterTest"></class>
         </classes>
     </test>
     <test verbose="2" preserve-order="true"
           name="multiParameterTest2">
-        <parameter name="aranacak kelime" value="Selenium"></parameter>
-
+        <parameter name="aranacakKelime" value="Selenium"></parameter>
         <classes>
             <class name="Clarusway.test.C14_XMLFile_ParameterTest"></class>
         </classes>
