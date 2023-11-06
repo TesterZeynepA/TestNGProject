@@ -8,9 +8,9 @@ public class C12_XMLFilesGroups {
     void test1(){
         System.out.println("test1 smoke çalıştı");
     }
-    @Test(groups = {"smoke"})
+    @Test(groups = {"smoke","sanity"})
     void test2(){
-        System.out.println("test2 smoke çalıştı");
+        System.out.println("test2 smoke sanity çalıştı");
     }
     @Test
     void test3(){
@@ -20,9 +20,9 @@ public class C12_XMLFilesGroups {
     void test4(){
         System.out.println("test4 smoke, regression çalıştı");
     }
-    @Test(groups = {"regression"})
+    @Test(groups = {"regression","sanity",})
     void test5(){
-        System.out.println("test5 regression çalıştı");
+        System.out.println("test5 regression sanity çalıştı");
     }
     @Test(groups = {"regression"})
     void test6(){

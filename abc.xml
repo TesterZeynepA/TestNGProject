@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="c11"><!--sadece c11 classını kapsar -->
+        <classes><!--bu tagin içerisine çalışmasını istediğimiz classları ekleriz  -->
+            <class name="Clarusway.test.C11_XMLFilesHierarchy"></class>
+        </classes>
+    </test></suite>
