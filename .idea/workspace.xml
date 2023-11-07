@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 07.11.2023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C16_DataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C17_DataProviderFaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C18_DataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C19_DataProviderClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_CrossBrowserTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C20_CrossBrowserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/utilities/ParameterBrowserTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +24,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="dd448985-1384-454e-bd83-8f06e21b4a1c" />
+        <option name="url" value="https://github.com/TesterZeynepA/TestNGProject.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -65,7 +69,7 @@
       <recent name="C:\Users\zeyne\IdeaProjects\TestNGProject" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C18_DataProvider.test">
+  <component name="RunManager" selected="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/09_CrossBrowserTest.xml">
     <configuration name="C17_DataProviderFaker.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -102,9 +106,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/zeyne/IdeaProjects/TestNGProject/08_MultiParameter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/zeyne/IdeaProjects/TestNGProject/09_CrossBrowserTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/08_MultiParameter.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/09_CrossBrowserTest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -150,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/09_CrossBrowserTest.xml" />
         <item itemvalue="TestNG.C18_DataProvider.test" />
         <item itemvalue="TestNG.C17_DataProviderFaker.test" />
         <item itemvalue="TestNG.Task03.test" />
         <item itemvalue="TestNG.Task02.test" />
-        <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/08_MultiParameter.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699306423390</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="TestNGProject 07.11.2023">
+      <created>1699381701186</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1699381701186</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
