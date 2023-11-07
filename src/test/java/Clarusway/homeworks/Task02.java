@@ -30,7 +30,11 @@ public class Task02 extends TestBase {
     @DataProvider(name = "invalidCredentials")
     public Object[][] invalidCredentials() {
 
-        Object [][] data = new Object[][] {{"admine", "admine321"},{"username", "password"},{"isimsiz", "parolasız"}};
+        Object [][] data = new Object[][] {
+                {"admine", "admine321"},
+                {"username", "password"},
+                {"isimsiz", "parolasız"}
+        };
         return data;
     }
 

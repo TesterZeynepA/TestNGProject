@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 07.11.2023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C16_DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C17_DataProviderFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C18_DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C19_DataProviderClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task02.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2XdBUGXg3PQcDdvaUB7F55vyNHI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/zeyne/IdeaProjects/TestNGProject",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zeyne\IdeaProjects\TestNGProject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C18_DataProvider.test">
+    <configuration name="C17_DataProviderFaker.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clarusway.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Clarusway.test" />
+      <option name="MAIN_CLASS_NAME" value="Clarusway.test.C17_DataProviderFaker" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C18_DataProvider.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clarusway.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Clarusway.test" />
+      <option name="MAIN_CLASS_NAME" value="Clarusway.test.C18_DataProvider" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/zeyne/IdeaProjects/TestNGProject/08_MultiParameter.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/08_MultiParameter.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task02.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clarusway.homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Clarusway.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="Clarusway.homeworks.Task02" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task03.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clarusway.homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Clarusway.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="Clarusway.homeworks.Task03" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C18_DataProvider.test" />
+        <item itemvalue="TestNG.C17_DataProviderFaker.test" />
+        <item itemvalue="TestNG.Task03.test" />
+        <item itemvalue="TestNG.Task02.test" />
+        <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/08_MultiParameter.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="" />
+      <created>1698949102411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698949102411</updated>
+    </task>
+    <task id="LOCAL-00001" summary="TestNGProject first commit message">
+      <created>1698950947339</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698950947339</updated>
+    </task>
+    <task id="LOCAL-00002" summary="TestNGProject 02.11.2023">
+      <created>1698953141988</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698953141988</updated>
+    </task>
+    <task id="LOCAL-00003" summary="TestNGProject 02.11.2023">
+      <created>1698954729663</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698954729663</updated>
+    </task>
+    <task id="LOCAL-00004" summary="TestNGProject 02.11.2023">
+      <created>1698955560082</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698955560082</updated>
+    </task>
+    <task id="LOCAL-00005" summary="TestNGProject 02.11.2023">
+      <created>1698957218037</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698957218037</updated>
+    </task>
+    <task id="LOCAL-00006" summary="TestNGProject 03.11.2023">
+      <created>1699017203029</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699017203029</updated>
+    </task>
+    <task id="LOCAL-00007" summary="TestNGProject 03.11.2023">
+      <created>1699036263740</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699036263744</updated>
+    </task>
+    <task id="LOCAL-00008" summary="TestNGProject 03.11.2023">
+      <created>1699037752090</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699037752092</updated>
+    </task>
+    <task id="LOCAL-00009" summary="TestNGProject 03.11.2023">
+      <created>1699040491575</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699040491576</updated>
+    </task>
+    <task id="LOCAL-00010" summary="TestNGProject 03.11.2023">
+      <created>1699043298723</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699043298723</updated>
+    </task>
+    <task id="LOCAL-00011" summary="TestNGProject 06.11.2023">
+      <created>1699294866092</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699294866092</updated>
+    </task>
+    <task id="LOCAL-00012" summary="TestNGProject 06.11.2023">
+      <created>1699295523307</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699295523307</updated>
+    </task>
+    <task id="LOCAL-00013" summary="TestNGProject 06.11.2023">
+      <created>1699298048612</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699298048612</updated>
+    </task>
+    <task id="LOCAL-00014" summary="TestNGProject 06.11.2023">
+      <created>1699298934508</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699298934508</updated>
+    </task>
+    <task id="LOCAL-00015" summary="TestNGProject 06.11.2023">
+      <created>1699301288748</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699301288748</updated>
+    </task>
+    <task id="LOCAL-00016" summary="TestNGProject 06.11.2023">
+      <created>1699303048891</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1699303048893</updated>
+    </task>
+    <task id="LOCAL-00017" summary="TestNGProject 06.11.2023">
+      <created>1699304273310</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1699304273311</updated>
+    </task>
+    <task id="LOCAL-00018" summary="TestNGProject 07.11.2023">
+      <created>1699306423390</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1699306423390</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TestNGProject first commit message" />
+    <MESSAGE value="TestNGProject 02.11.2023" />
+    <MESSAGE value="TestNGProject 03.11.2023" />
+    <MESSAGE value="TestNGProject 06.11.2023" />
+    <MESSAGE value="TestNGProject 07.11.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNGProject 07.11.2023" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TestNGProject$C14_XMLFile_ParameterTest.ic" NAME="C14_XMLFile_ParameterTest Coverage Results" MODIFIED="1699299214143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Clarusway.test.*</FILTER>
+    </SUITE>
+  </component>
+</project>
