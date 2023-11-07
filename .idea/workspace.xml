@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 07.11.2023">
-      <change afterPath="$PROJECT_DIR$/10_ParallelExecution.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C21_ParallelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_ParallelExecution.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C22_ParallelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +67,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zeyne\IdeaProjects\TestNGProject" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Clarusway.test" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/10_ParallelExecution.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/12_ParallelExecution.xml">
     <configuration name="C17_DataProviderFaker.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -126,18 +128,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task03.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/zeyne/IdeaProjects/TestNGProject/12_ParallelExecution.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Clarusway.homeworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Clarusway.homeworks" />
-      <option name="MAIN_CLASS_NAME" value="Clarusway.homeworks.Task03" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/12_ParallelExecution.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -146,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/12_ParallelExecution.xml" />
         <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/10_ParallelExecution.xml" />
         <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/09_CrossBrowserTest.xml" />
         <item itemvalue="TestNG.C18_DataProvider.test" />
         <item itemvalue="TestNG.C17_DataProviderFaker.test" />
-        <item itemvalue="TestNG.Task03.test" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699386042838</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="TestNGProject 07.11.2023">
+      <created>1699388321065</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1699388321065</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -17,7 +17,7 @@ public class Task04 extends TestBase {
 
     @Test
     public void test(){
-        driver.get("");
+        driver.get("http://crossbrowsertesting.github.io/");
 
 
     }
