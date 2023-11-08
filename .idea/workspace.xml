@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 07.11.2023">
-      <change afterPath="$PROJECT_DIR$/12_ParallelExecution.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C22_ParallelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task04CrossBrowserTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +71,8 @@
       <recent name="Clarusway.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/12_ParallelExecution.xml">
-    <configuration name="C17_DataProviderFaker.test" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/Task04CrossBrowserTest.xml">
+    <configuration name="C20_CrossBrowserTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -81,37 +81,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Clarusway.test" />
-      <option name="MAIN_CLASS_NAME" value="Clarusway.test.C17_DataProviderFaker" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C18_DataProvider.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Clarusway.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Clarusway.test" />
-      <option name="MAIN_CLASS_NAME" value="Clarusway.test.C18_DataProvider" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/zeyne/IdeaProjects/TestNGProject/09_CrossBrowserTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/09_CrossBrowserTest.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="MAIN_CLASS_NAME" value="Clarusway.test.C20_CrossBrowserTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -138,13 +109,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/zeyne/IdeaProjects/TestNGProject/Task04CrossBrowserTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Task04CrossBrowserTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task04.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clarusway.homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Clarusway.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="Clarusway.homeworks.Task04" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/Task04CrossBrowserTest.xml" />
+        <item itemvalue="TestNG.C20_CrossBrowserTest" />
+        <item itemvalue="TestNG.Task04.test" />
         <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/12_ParallelExecution.xml" />
         <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/10_ParallelExecution.xml" />
-        <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/09_CrossBrowserTest.xml" />
-        <item itemvalue="TestNG.C18_DataProvider.test" />
-        <item itemvalue="TestNG.C17_DataProviderFaker.test" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +303,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699388321065</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="TestNGProject 07.11.2023">
+      <created>1699389601810</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1699389601810</updated>
+    </task>
+    <task id="LOCAL-00023" summary="TestNGProject 07.11.2023">
+      <created>1699389616169</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1699389616169</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
