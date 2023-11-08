@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 07.11.2023">
-      <change afterPath="$PROJECT_DIR$/Task04CrossBrowserTest.xml" afterDir="false" />
+    <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 08.11.2023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C23_ParallelTestParameter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +70,8 @@
       <recent name="Clarusway.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/Task04CrossBrowserTest.xml">
-    <configuration name="C20_CrossBrowserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C23_ParallelTestParameter">
+    <configuration name="C21_ParallelTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
@@ -81,7 +80,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Clarusway.test" />
-      <option name="MAIN_CLASS_NAME" value="Clarusway.test.C20_CrossBrowserTest" />
+      <option name="MAIN_CLASS_NAME" value="Clarusway.test.C21_ParallelTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C23_ParallelTestParameter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clarusway.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Clarusway.test" />
+      <option name="MAIN_CLASS_NAME" value="Clarusway.test.C23_ParallelTestParameter" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -99,6 +115,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/zeyne/IdeaProjects/TestNGProject/11_ParallelExecution.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/11_ParallelExecution.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/zeyne/IdeaProjects/TestNGProject/12_ParallelExecution.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/12_ParallelExecution.xml" />
@@ -109,41 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/zeyne/IdeaProjects/TestNGProject/Task04CrossBrowserTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Task04CrossBrowserTest.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task04.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Clarusway.homeworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Clarusway.homeworks" />
-      <option name="MAIN_CLASS_NAME" value="Clarusway.homeworks.Task04" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/Task04CrossBrowserTest.xml" />
-        <item itemvalue="TestNG.C20_CrossBrowserTest" />
-        <item itemvalue="TestNG.Task04.test" />
+        <item itemvalue="TestNG.C23_ParallelTestParameter" />
         <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/12_ParallelExecution.xml" />
+        <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/11_ParallelExecution.xml" />
         <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/10_ParallelExecution.xml" />
+        <item itemvalue="TestNG.C21_ParallelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699389616169</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="TestNGProject 08.11.2023">
+      <created>1699461664245</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1699461664247</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,7 +342,8 @@
     <MESSAGE value="TestNGProject 03.11.2023" />
     <MESSAGE value="TestNGProject 06.11.2023" />
     <MESSAGE value="TestNGProject 07.11.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNGProject 07.11.2023" />
+    <MESSAGE value="TestNGProject 08.11.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNGProject 08.11.2023" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestNGProject$C14_XMLFile_ParameterTest.ic" NAME="C14_XMLFile_ParameterTest Coverage Results" MODIFIED="1699299214143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
