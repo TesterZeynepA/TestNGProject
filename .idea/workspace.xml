@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 08.11.2023">
-      <change afterPath="$PROJECT_DIR$/14_ParallelCrossBrowserTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C25_SmokeTestInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 08.11.2023" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,10 +64,11 @@
       <recent name="C:\Users\zeyne\IdeaProjects\TestNGProject" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Clarusway.smokeTest" />
       <recent name="Clarusway.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/14_ParallelCrossBrowserTest.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/15_SmokeTest.xml">
     <configuration name="C23_ParallelTestParameter" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -83,16 +80,6 @@
       <option name="PACKAGE_NAME" value="Clarusway.test" />
       <option name="MAIN_CLASS_NAME" value="Clarusway.test.C23_ParallelTestParameter" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/zeyne/IdeaProjects/TestNGProject/11_ParallelExecution.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/11_ParallelExecution.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -129,13 +116,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/zeyne/IdeaProjects/TestNGProject/15_SmokeTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/15_SmokeTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/15_SmokeTest.xml" />
         <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/14_ParallelCrossBrowserTest.xml" />
         <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/13_ParallelExecutionDataProvider.xml" />
         <item itemvalue="TestNG.C23_ParallelTestParameter" />
         <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/12_ParallelExecution.xml" />
-        <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/11_ParallelExecution.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699469726976</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="TestNGProject 08.11.2023">
+      <created>1699471019406</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1699471019406</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
