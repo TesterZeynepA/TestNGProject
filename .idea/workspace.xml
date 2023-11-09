@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 09.11.2023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CodeChallangeTestNG/tests/C07_CrossBrowser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CodeChallangeTestNG/tests/C06_Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CodeChallangeTestNG/tests/C06_Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,25 +75,7 @@
       <recent name="Clarusway.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C06_Order">
-    <configuration name="C03_Shadow.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeChallangeTestNG.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CodeChallangeTestNG.tests" />
-      <option name="MAIN_CLASS_NAME" value="CodeChallangeTestNG.tests.C03_Shadow" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C07_CrossBrowser.test">
     <configuration name="C04_WebTables.WebTablesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -164,13 +147,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C07_CrossBrowser.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeChallangeTestNG.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CodeChallangeTestNG.tests" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallangeTestNG.tests.C07_CrossBrowser" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C07_CrossBrowser.test" />
         <item itemvalue="TestNG.C06_Order" />
         <item itemvalue="TestNG.C06_Order.test2" />
         <item itemvalue="TestNG.C05_DataProvider.dataP" />
         <item itemvalue="TestNG.C04_WebTables.WebTablesTest" />
-        <item itemvalue="TestNG.C03_Shadow.test" />
       </list>
     </recent_temporary>
   </component>
@@ -435,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699547726179</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="TestNGProject 09.11.2023">
+      <created>1699548334582</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1699548334582</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
