@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>TestNG:  Listeners Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Listeners Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 09 23:18:32 EET 2023</td>
+</tr>
+<tr><td>Total time:</td><td>174 seconds (174081 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Clarusway.homeworks.Task03.test()'><b>test</b><br>Test class: Clarusway.homeworks.Task03<br>Parameters: Mac</td>
+<td></td>
+<td>6</td>
+<td>Clarusway.homeworks.Task03@2e380628</td></tr>
+<tr>
+<td title='Clarusway.smokeTest.NegativeLogin.negativeUserNameTestSoft()'><b>negativeUserNameTestSoft</b><br>Test class: Clarusway.smokeTest.NegativeLogin</td>
+<td></td>
+<td>4</td>
+<td>Clarusway.smokeTest.NegativeLogin@61799544</td></tr>
+<tr>
+<td title='Clarusway.smokeTest.PositiveLogin.testLoginSoft()'><b>testLoginSoft</b><br>Test class: Clarusway.smokeTest.PositiveLogin</td>
+<td></td>
+<td>5</td>
+<td>Clarusway.smokeTest.PositiveLogin@52a70627</td></tr>
+<tr>
+<td title='Clarusway.homeworks.Task02.test()'><b>test</b><br>Test class: Clarusway.homeworks.Task02<br>Parameters: isimsiz, parolasız</td>
+<td></td>
+<td>7</td>
+<td>Clarusway.homeworks.Task02@6e1f8469</td></tr>
+<tr>
+<td title='Clarusway.homeworks.Task01.amazon()'><b>amazon</b><br>Test class: Clarusway.homeworks.Task01</td>
+<td></td>
+<td>11</td>
+<td>Clarusway.homeworks.Task01@4632cfc</td></tr>
+<tr>
+<td title='Clarusway.homeworks.Task03.test()'><b>test</b><br>Test class: Clarusway.homeworks.Task03<br>Parameters: iPad</td>
+<td></td>
+<td>6</td>
+<td>Clarusway.homeworks.Task03@2e380628</td></tr>
+<tr>
+<td title='Clarusway.homeworks.Task02.test()'><b>test</b><br>Test class: Clarusway.homeworks.Task02<br>Parameters: admine, admine321</td>
+<td></td>
+<td>7</td>
+<td>Clarusway.homeworks.Task02@6e1f8469</td></tr>
+<tr>
+<td title='Clarusway.homeworks.Task01.facebook()'><b>facebook</b><br>Test class: Clarusway.homeworks.Task01</td>
+<td></td>
+<td>2</td>
+<td>Clarusway.homeworks.Task01@4632cfc</td></tr>
+<tr>
+<td title='Clarusway.smokeTest.PositiveLogin.testLoginHard()'><b>testLoginHard</b><br>Test class: Clarusway.smokeTest.PositiveLogin</td>
+<td></td>
+<td>5</td>
+<td>Clarusway.smokeTest.PositiveLogin@52a70627</td></tr>
+<tr>
+<td title='Clarusway.homeworks.Task02.test()'><b>test</b><br>Test class: Clarusway.homeworks.Task02<br>Parameters: username, password</td>
+<td></td>
+<td>6</td>
+<td>Clarusway.homeworks.Task02@6e1f8469</td></tr>
+<tr>
+<td title='Clarusway.homeworks.Task01.google()'><b>google</b><br>Test class: Clarusway.homeworks.Task01</td>
+<td></td>
+<td>2</td>
+<td>Clarusway.homeworks.Task01@4632cfc</td></tr>
+<tr>
+<td title='Clarusway.homeworks.Task03.test()'><b>test</b><br>Test class: Clarusway.homeworks.Task03<br>Parameters: Samsung</td>
+<td></td>
+<td>7</td>
+<td>Clarusway.homeworks.Task03@2e380628</td></tr>
+<tr>
+<td title='Clarusway.homeworks.Task04.test()'><b>test</b><br>Test class: Clarusway.homeworks.Task04</td>
+<td></td>
+<td>6</td>
+<td>Clarusway.homeworks.Task04@3b6c624</td></tr>
+</table><p>
+</body>
+</html>
