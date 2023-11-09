@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 09.11.2023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CodeChallangeTestNG/tests/C04_WebTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CodeChallangeTestNG/tests/C05_DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CodeChallangeTestNG/tests/C05_DataProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
       <recent name="Clarusway.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C04_WebTables.WebTablesTest">
+  <component name="RunManager" selected="TestNG.C05_DataProvider.dataP">
     <configuration name="C01_Slider.testSlider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -146,10 +147,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/zeyne/IdeaProjects/TestNGProject/15_SmokeTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C05_DataProvider.dataP" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/15_SmokeTest.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeChallangeTestNG.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CodeChallangeTestNG.tests" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallangeTestNG.tests.C05_DataProvider" />
+      <option name="METHOD_NAME" value="dataP" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -158,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C05_DataProvider.dataP" />
         <item itemvalue="TestNG.C04_WebTables.WebTablesTest" />
         <item itemvalue="TestNG.C03_Shadow.test" />
         <item itemvalue="TestNG.C02_UploadFile.test" />
         <item itemvalue="TestNG.C01_Slider.testSlider" />
-        <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/15_SmokeTest.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -413,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699546103720</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="TestNGProject 09.11.2023">
+      <created>1699546703160</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1699546703161</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
