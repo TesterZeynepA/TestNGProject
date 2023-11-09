@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 09.11.2023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CodeChallangeTestNG/tests/C02_UploadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CodeChallangeTestNG/tests/C03_Shadow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
       <recent name="Clarusway.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C02_UploadFile.test">
+  <component name="RunManager" selected="TestNG.C03_Shadow.test">
     <configuration name="C01_Slider.testSlider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -111,10 +111,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/zeyne/IdeaProjects/TestNGProject/13_ParallelExecutionDataProvider.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_Shadow.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/13_ParallelExecutionDataProvider.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeChallangeTestNG.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CodeChallangeTestNG.tests" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallangeTestNG.tests.C03_Shadow" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -143,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C03_Shadow.test" />
         <item itemvalue="TestNG.C02_UploadFile.test" />
         <item itemvalue="TestNG.C01_Slider.testSlider" />
         <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/15_SmokeTest.xml" />
         <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/14_ParallelCrossBrowserTest.xml" />
-        <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/13_ParallelExecutionDataProvider.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -384,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699543851045</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="TestNGProject 09.11.2023">
+      <created>1699544650216</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1699544650216</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
