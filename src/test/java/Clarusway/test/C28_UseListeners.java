@@ -2,14 +2,13 @@ package Clarusway.test;
 
 import org.testng.Assert;
 import org.testng.ITestContext;
-import org.testng.ITestResult;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(Clarusway.utilities.Listeners.class)//1. yöntemle Listeners classımıza bağladık
-                                               // Classımızı run ettiğimizde raporlara ulaşırız.
 
-public class C27_UseListeners {
+public class C28_UseListeners {
+    //Listeners classıyla Test classımızı Run -> Edit config ile çıkan ekrandan bağlayabiliriz.
+    //Ayrıca yine aynı ekrandan diğer raporlama yöntemlerinden istediklerimizi dahil edebiliriz.
 
     @Test
     public void successfulTest(){

@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 09.11.2023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C28_UseListeners.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Clarusway/test/C26_AllureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C26_AllureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Clarusway/test/C27_UseListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C27_UseListeners.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,11 +71,11 @@
       <recent name="C:\Users\zeyne\IdeaProjects\TestNGProject" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Clarusway.smokeTest" />
       <recent name="Clarusway.test" />
+      <recent name="Clarusway.smokeTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C07_CrossBrowser.test">
+  <component name="RunManager" selected="TestNG.C28_UseListeners">
     <configuration name="C04_WebTables.WebTablesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -146,27 +147,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C07_CrossBrowser.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C28_UseListeners" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CodeChallangeTestNG.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CodeChallangeTestNG.tests" />
-      <option name="MAIN_CLASS_NAME" value="CodeChallangeTestNG.tests.C07_CrossBrowser" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Clarusway.test" />
+      <option name="MAIN_CLASS_NAME" value="Clarusway.test.C28_UseListeners" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners />
+      <listeners>
+        <listener class="Clarusway.utilities.Listeners" />
+        <listener class="org.testng.reporters.EmailableReporter" />
+        <listener class="org.testng.reporters.TestHTMLReporter" />
+      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.C04_WebTables.WebTablesTest" />
+      <item itemvalue="TestNG.C05_DataProvider.dataP" />
+      <item itemvalue="TestNG.C06_Order" />
+      <item itemvalue="TestNG.C06_Order.test2" />
+      <item itemvalue="TestNG.C28_UseListeners" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C07_CrossBrowser.test" />
+        <item itemvalue="TestNG.C28_UseListeners" />
         <item itemvalue="TestNG.C06_Order" />
         <item itemvalue="TestNG.C06_Order.test2" />
         <item itemvalue="TestNG.C05_DataProvider.dataP" />
