@@ -35,3 +35,7 @@ public class C26_AllureTest {
         throw new SkipException("test 4 skip edilecek");
     }
 }
+// Allure test report almak için pom a ilgili xml adı eklenir. sonra reload yapılır. daha sonra terminal açılır.
+//terminale mvn clear test yazılıp enter yapılır. yazılar tamamlanınca, allure serve yazılıp enter yapılır.
+//bu komut bize kendisi browser açarak raporu gösterir.
+
