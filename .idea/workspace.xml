@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 08.11.2023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CodeChallangeTestNG/tests/C01_Slider.java" afterDir="false" />
+    <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 09.11.2023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CodeChallangeTestNG/tests/C02_UploadFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +74,7 @@
       <recent name="Clarusway.test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C01_Slider.testSlider">
+  <component name="RunManager" selected="TestNG.C02_UploadFile.test">
     <configuration name="C01_Slider.testSlider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -94,17 +93,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C23_ParallelTestParameter" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_UploadFile.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Clarusway.test.*" />
+          <option name="PATTERN" value="CodeChallangeTestNG.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Clarusway.test" />
-      <option name="MAIN_CLASS_NAME" value="Clarusway.test.C23_ParallelTestParameter" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="CodeChallangeTestNG.tests" />
+      <option name="MAIN_CLASS_NAME" value="CodeChallangeTestNG.tests.C02_UploadFile" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C02_UploadFile.test" />
         <item itemvalue="TestNG.C01_Slider.testSlider" />
         <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/15_SmokeTest.xml" />
         <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/14_ParallelCrossBrowserTest.xml" />
         <item itemvalue="TestNG.C:/Users/zeyne/IdeaProjects/TestNGProject/13_ParallelExecutionDataProvider.xml" />
-        <item itemvalue="TestNG.C23_ParallelTestParameter" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699475926102</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="TestNGProject 09.11.2023">
+      <created>1699543851045</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1699543851045</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,7 +405,8 @@
     <MESSAGE value="TestNGProject 06.11.2023" />
     <MESSAGE value="TestNGProject 07.11.2023" />
     <MESSAGE value="TestNGProject 08.11.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNGProject 08.11.2023" />
+    <MESSAGE value="TestNGProject 09.11.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNGProject 09.11.2023" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestNGProject$C14_XMLFile_ParameterTest.ic" NAME="C14_XMLFile_ParameterTest Coverage Results" MODIFIED="1699299214143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
