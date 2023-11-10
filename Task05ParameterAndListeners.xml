@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Add Elements Suite">
+    <test name="AddElementsTest">
+        <parameter name="clickCount" value="17"></parameter>
+        <classes>
+            <class name="Clarusway.homeworks.Task05"></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"></listener>
+        <listener class-name="org.testng.reporters.EmailableReporter2"></listener>
+        <listener class-name="org.testng.reporters.FailedReporter"></listener>
+        <listener class-name="org.testng.reporters.TestHTMLReporter"></listener>
+    </listeners>
+</suite>
