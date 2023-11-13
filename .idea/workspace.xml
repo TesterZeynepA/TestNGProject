@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 09.11.2023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C28_UseListeners.java" afterDir="false" />
+    <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 11.11.2023">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Clarusway/test/C27_UseListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Clarusway/test/C27_UseListeners.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,43 +75,7 @@
       <recent name="Clarusway.smokeTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C28_UseListeners">
-    <configuration name="C04_WebTables.WebTablesTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeChallangeTestNG.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CodeChallangeTestNG.tests" />
-      <option name="MAIN_CLASS_NAME" value="CodeChallangeTestNG.tests.C04_WebTables" />
-      <option name="METHOD_NAME" value="WebTablesTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C05_DataProvider.dataP" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeChallangeTestNG.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CodeChallangeTestNG.tests" />
-      <option name="MAIN_CLASS_NAME" value="CodeChallangeTestNG.tests.C05_DataProvider" />
-      <option name="METHOD_NAME" value="dataP" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Task07.test">
     <configuration name="C06_Order" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNGProject" />
       <extension name="coverage">
@@ -179,20 +143,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task06.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clarusway.homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Clarusway.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="Clarusway.homeworks.Task06" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task07.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clarusway.homeworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Clarusway.homeworks" />
+      <option name="MAIN_CLASS_NAME" value="Clarusway.homeworks.Task07" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.C04_WebTables.WebTablesTest" />
-      <item itemvalue="TestNG.C05_DataProvider.dataP" />
+      <item itemvalue="TestNG.Task06.test" />
+      <item itemvalue="TestNG.Task07.test" />
       <item itemvalue="TestNG.C06_Order" />
       <item itemvalue="TestNG.C06_Order.test2" />
       <item itemvalue="TestNG.C28_UseListeners" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Task07.test" />
+        <item itemvalue="TestNG.Task06.test" />
         <item itemvalue="TestNG.C28_UseListeners" />
         <item itemvalue="TestNG.C06_Order" />
         <item itemvalue="TestNG.C06_Order.test2" />
-        <item itemvalue="TestNG.C05_DataProvider.dataP" />
-        <item itemvalue="TestNG.C04_WebTables.WebTablesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +478,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699554067031</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="TestNGProject 11.11.2023">
+      <created>1699728344635</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1699728344635</updated>
+    </task>
+    <task id="LOCAL-00041" summary="TestNGProject 11.11.2023">
+      <created>1699728618420</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1699728618420</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +514,8 @@
     <MESSAGE value="TestNGProject 07.11.2023" />
     <MESSAGE value="TestNGProject 08.11.2023" />
     <MESSAGE value="TestNGProject 09.11.2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNGProject 09.11.2023" />
+    <MESSAGE value="TestNGProject 11.11.2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestNGProject 11.11.2023" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TestNGProject$C14_XMLFile_ParameterTest.ic" NAME="C14_XMLFile_ParameterTest Coverage Results" MODIFIED="1699299214143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
