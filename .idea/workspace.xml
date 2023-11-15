@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 11.11.2023">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task07.java" afterDir="false" />
+    <list default="true" id="b80883a2-f169-474c-b096-00aa7e9b3e0c" name="Changes" comment="TestNGProject 15.11.2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Clarusway/homeworks/Task07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Clarusway/utilities/JSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Clarusway/utilities/JSUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

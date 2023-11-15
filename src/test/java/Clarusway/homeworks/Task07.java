@@ -3,8 +3,11 @@ package Clarusway.homeworks;
 import Clarusway.utilities.JSUtils;
 import Clarusway.utilities.TestBase;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
+
+import static Clarusway.utilities.JSUtils.*;
 
 public class Task07 extends TestBase{
     //Go to URL: https://www.amazon.com/
@@ -14,23 +17,21 @@ public class Task07 extends TestBase{
 
     @Test
     public void test() throws InterruptedException {
+
+        //Go to URL: https://www.amazon.com/
         driver.get("https://www.amazon.com/");
 
-        WebElement amazonIgnite = driver.findElement(By.xpath("//a[@aria-label='Amazon US Home']"));
+        //Scroll in to view Back To Top WebElement.
+        WebElement backToTop = driver.findElement(By.xpath("//span[contains(text(),'Back')]"));
+        scrollIntoViewJS(backToTop);
 
-       // Thread.sleep(3000);
-       // JSUtils.scrollIntoViewJS(amazonIgnite);
+        //Scroll up search area WebElement.
+        scrollAllUpByJS();
 
+        //Then flashing the background color.
         WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
-
-       // JSUtils.scrollAllUpByJS();
-
-        JSUtils.flash(searchBox);
-
-
-
-
-
+        flash(searchBox);
 
     }
+
 }

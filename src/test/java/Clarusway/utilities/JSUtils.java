@@ -1,11 +1,9 @@
 package Clarusway.utilities;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class JSUtils {
-    protected static WebDriver driver;
+public class JSUtils extends TestBase{
     //This method will takes two parameter: WebElement, and WebDriver
     //When you pass the element, JS will click on that element
     public static void clickElementByJS(WebElement element) {
