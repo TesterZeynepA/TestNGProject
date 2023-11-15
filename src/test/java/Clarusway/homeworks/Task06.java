@@ -14,24 +14,30 @@ public class Task06 extends TestBase {
     //Password: test123
 
     @Test
-    public void test(){
+    public void loginTest() {
+
         driver.get("http://crossbrowsertesting.github.io/login-form.html");
 
-        WebElement username= driver.findElement(By.xpath("//input[@name='username']"));
+        WebElement usernameBox= driver.findElement(By.xpath("//input[@name='username']"));
 
-        WebElement password= driver.findElement(By.xpath("//input[@name='password']"));
+        WebElement passwordBox= driver.findElement(By.xpath("//input[@name='password']"));
 
         WebElement loginButton = driver.findElement(By.xpath("//button[@id='submit']"));
 
-        username.sendKeys("tester@crossbrowsertesting.com");
+        String excelPath = "C:\\Users\\zeyne\\IdeaProjects\\TestNGProject\\src\\test\\resources\\testData.xlsx";
+        String sheetName = "Login";
 
-        password.sendKeys("test123");
+        ExcelUtil excelUtil = new ExcelUtil(excelPath, sheetName);
+        String username = excelUtil.getCellData(0, 0);
+        String password = excelUtil.getCellData(0, 1);
 
+        usernameBox.sendKeys(username);
+        passwordBox.sendKeys(password);
         loginButton.click();
 
         WebElement loginMessage = driver.findElement(By.id("logged-in"));
-
         Assert.assertTrue(loginMessage.isDisplayed());
 
     }
+
 }
